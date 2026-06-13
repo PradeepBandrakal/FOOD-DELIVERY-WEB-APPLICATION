@@ -1,0 +1,170 @@
+
+/* PAGE */
+
+.register-page{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #f8f8f8;
+
+    padding: 40px;
+}
+
+/* CARD */
+
+.register-card{
+
+    width: 100%;
+
+    max-width: 550px;
+
+    background-color: white;
+
+    padding: 45px;
+
+    border-radius: 24px;
+
+    box-shadow:
+    0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* TITLE */
+
+.register-title{
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    color: #282c3f;
+
+    margin-bottom: 12px;
+
+    text-align: center;
+}
+
+/* SUBTITLE */
+
+.register-subtitle{
+
+    text-align: center;
+
+    color: #686b78;
+
+    margin-bottom: 35px;
+
+    font-size: 16px;
+}
+
+/* INPUT GROUP */
+
+.input-group{
+
+    margin-bottom: 22px;
+}
+
+/* INPUTS */
+
+.register-input{
+
+    width: 100%;
+
+    padding: 16px;
+
+    border-radius: 14px;
+
+    border: 1px solid #e9e9eb;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.3s ease;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TEXTAREA */
+
+.register-textarea{
+
+    min-height: 120px;
+
+    resize: none;
+}
+
+/* FOCUS */
+
+.register-input:focus{
+
+    border-color: #fc8019;
+
+    box-shadow:
+    0 0 0 4px rgba(252,128,25,0.12);
+}
+
+/* BUTTON */
+
+.register-btn{
+
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    background-color: #fc8019;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+
+    margin-top: 10px;
+}
+
+/* HOVER */
+
+.register-btn:hover{
+
+    background-color: #e46f0b;
+
+    transform: translateY(-2px);
+}
+
+/* LOGIN TEXT */
+
+.login-text{
+
+    margin-top: 28px;
+
+    text-align: center;
+
+    color: #686b78;
+}
+
+/* LINK */
+
+.login-text a{
+
+    color: #fc8019;
+
+    text-decoration: none;
+
+    font-weight: 600;
+}

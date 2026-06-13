@@ -1,0 +1,57 @@
+:root{
+
+    --primary: #fc8019;
+
+    --primary-dark: #e46f0b;
+
+    --background: #f8f8f8;
+
+    --white: #ffffff;
+
+    --text-dark: #282c3f;
+
+    --text-light: #686b78;
+
+    --border: #e9e9eb;
+}
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: var(--background);
+
+    color: var(--text-dark);
+}
+
+.container{
+
+    width: 90%;
+
+    margin: auto;
+}
+
+a{
+
+    text-decoration: none;
+}
+img{
+
+    display: block;
+}
+
+a{
+
+    text-decoration: none;
+
+    color: inherit;
+}

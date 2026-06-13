@@ -1,0 +1,155 @@
+
+/* PAGE */
+
+.success-page{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+    linear-gradient(
+    135deg,
+    #fc8019,
+    #ff9f43
+    );
+}
+
+/* CARD */
+
+.success-card{
+
+    width: 90%;
+
+    max-width: 500px;
+
+    background-color: white;
+
+    padding: 50px;
+
+    border-radius: 28px;
+
+    text-align: center;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.15);
+
+    animation: pop 0.5s ease;
+}
+
+/* ICON */
+
+.success-icon{
+
+    width: 100px;
+
+    height: 100px;
+
+    margin: 0 auto 25px;
+
+    border-radius: 50%;
+
+    background-color: #48c479;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 48px;
+
+    font-weight: 700;
+}
+
+/* TITLE */
+
+.success-title{
+
+    font-size: 38px;
+
+    font-weight: 700;
+
+    color: #282c3f;
+
+    margin-bottom: 18px;
+}
+
+/* MESSAGE */
+
+.success-message{
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    color: #686b78;
+
+    margin-bottom: 20px;
+}
+
+/* REDIRECT */
+
+.redirect-text{
+
+    color: #999;
+
+    margin-bottom: 30px;
+}
+
+/* BUTTON */
+
+.login-btn{
+
+    padding: 16px 32px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    background-color: #fc8019;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+/* HOVER */
+
+.login-btn:hover{
+
+    background-color: #e46f0b;
+
+    transform: translateY(-3px);
+}
+
+/* ANIMATION */
+
+@keyframes pop{
+
+    from{
+
+        transform: scale(0.8);
+
+        opacity: 0;
+    }
+
+    to{
+
+        transform: scale(1);
+
+        opacity: 1;
+    }
+}

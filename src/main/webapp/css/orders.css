@@ -1,0 +1,333 @@
+/* PAGE */
+
+.orders-page{
+
+    width: 90%;
+
+    margin: 40px auto;
+}
+
+/* TITLE */
+
+.orders-title{
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    color: #282c3f;
+
+    margin-bottom: 35px;
+}
+
+/* ORDER LIST */
+
+.orders-list{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+/* ORDER CARD */
+
+.order-card{
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    padding: 20px;
+
+    box-shadow:
+    0 4px 18px rgba(0,0,0,0.08);
+
+    transition: 0.3s ease;
+}
+
+/* HOVER */
+
+.order-card:hover{
+
+    transform: translateY(-5px);
+
+    box-shadow:
+    0 12px 28px rgba(0,0,0,0.12);
+}
+
+/* TOP */
+
+.order-top{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+/* ORDER ID */
+
+.order-id{
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    color: #282c3f;
+}
+
+/* STATUS */
+
+.order-status{
+
+    padding: 10px 20px;
+
+    border-radius: 30px;
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    background-color: #48c479;
+}
+
+/* SECTION TITLE */
+
+.section-title{
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+    color: #282c3f;
+
+    margin-bottom: 20px;
+}
+
+/* ORDER ITEMS SECTION */
+
+.items-section{
+
+    margin-top: 20px;
+}
+
+/* ITEM CARD */
+
+.order-item{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: #f8f8f8;
+
+    padding: 14px 18px;
+
+    border-radius: 18px;
+
+    margin-bottom: 16px;
+}
+
+/* LEFT */
+
+.item-left{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+}
+
+/* IMAGE */
+
+.item-image{
+
+    width: 85px;
+
+    height: 85px;
+
+    border-radius: 18px;
+
+    object-fit: cover;
+}
+
+/* ITEM NAME */
+
+.item-name{
+
+    font-size: 19px;
+
+    font-weight: 600;
+
+    color: #282c3f;
+}
+
+/* QUANTITY */
+
+.item-qty{
+
+    margin-top: 6px;
+
+    color: #686b78;
+}
+
+/* PRICE */
+
+.item-price{
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    color: #48c479;
+}
+
+/* BILL SECTION */
+
+.bill-section{
+
+    margin-top: 22px;
+
+    background-color: #fff8f2;
+
+    padding: 20px;
+
+    border-radius: 18px;
+}
+
+/* BILL ROW */
+
+.bill-row{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 12px;
+
+    color: #555;
+
+    font-size: 15px;
+}
+
+/* TOTAL ROW */
+
+.total-row{
+
+    border-top: 1px solid #ddd;
+
+    padding-top: 14px;
+
+    margin-top: 14px;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    color: #282c3f;
+}
+
+/* ACTIONS */
+
+.order-actions{
+
+    display: flex;
+
+    gap: 16px;
+
+    margin-top: 28px;
+}
+
+/* BUTTON */
+
+.action-btn{
+
+    padding: 14px 28px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+/* REORDER */
+
+.reorder-btn{
+
+    background-color: #fc8019;
+
+    color: white;
+}
+
+/* TRACK */
+
+.track-btn{
+
+    background-color: #282c3f;
+
+    color: white;
+}
+
+/* BUTTON HOVER */
+
+.action-btn:hover{
+
+    transform: translateY(-2px);
+}
+
+/* EMPTY STATE */
+
+.empty-orders{
+
+    background-color: white;
+
+    padding: 70px;
+
+    border-radius: 24px;
+
+    text-align: center;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* EMPTY TITLE */
+
+.empty-orders h2{
+
+    font-size: 38px;
+
+    color: #282c3f;
+
+    margin-bottom: 18px;
+}
+
+/* EMPTY TEXT */
+
+.empty-orders p{
+
+    color: #686b78;
+
+    font-size: 18px;
+
+    margin-bottom: 25px;
+}

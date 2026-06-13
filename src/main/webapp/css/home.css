@@ -1,0 +1,141 @@
+/* PAGE SPACING */
+
+.home-section{
+
+    padding: 40px 0;
+}
+
+/* RESTAURANT SECTION */
+
+.restaurant-section{
+
+    width: 90%;
+
+    margin: 40px auto;
+}
+
+/* SECTION TITLE */
+
+.section-title{
+
+    font-size: 32px;
+
+    font-weight: 700;
+
+    margin-bottom: 30px;
+
+    color: #282c3f;
+}
+
+/* GRID LAYOUT */
+
+.restaurant-grid{
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 30px;
+}
+
+/* HERO SECTION */
+
+.hero-section{
+
+    height: 500px;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0.55)
+    ),
+
+    url('../images/banner.jpg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+/* OVERLAY */
+
+.hero-overlay{
+
+    width: 100%;
+
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+/* CONTENT */
+
+.hero-content{
+
+    text-align: center;
+
+    color: white;
+}
+
+.hero-content h1{
+
+    font-size: 58px;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+    width: 800px;
+
+    line-height: 1.2;
+}
+
+.hero-content p{
+
+    font-size: 22px;
+
+    margin-bottom: 35px;
+
+    color: #f1f1f1;
+}
+
+/* BUTTON */
+
+.hero-btn{
+
+    padding: 16px 34px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background-color: #fc8019;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover{
+
+    background-color: #e46f0b;
+
+    transform: translateY(-3px);
+}
